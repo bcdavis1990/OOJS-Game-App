@@ -6,11 +6,11 @@ class Game {
   constructor() {
     this.missed = 0;
     this.phrases = [
-      new Phrase("whose the carved beef"),
-      new Phrase("you sure about that"),
-      new Phrase("sloppy steaks"),
-      new Phrase("the skeletons will pull your hair"),
-      new Phrase("you gotta give"),
+      new Phrase("Whose The Carved Beef"),
+      new Phrase("You Sure About That"),
+      new Phrase("Sloppy Steaks"),
+      new Phrase("The Skeletons Will Pull Your Hair"),
+      new Phrase("You Gotta Give"),
     ];
     this.activePhrase = null;
   }
