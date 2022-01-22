@@ -4,7 +4,7 @@
 
 class Phrase {
   constructor(phrase) {
-    this.phrase = phrase.toLowercase();
+    this.phrase = phrase.toLowerCase();
   }
   addPhraseToDisplay() {
     //targets the ul that the li items will append to
@@ -47,5 +47,3 @@ class Phrase {
     }
   }
 }
-
-console.log();
