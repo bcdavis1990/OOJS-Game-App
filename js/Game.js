@@ -96,9 +96,8 @@ class Game {
 
   //handles resetting of the game when the game ends and user clicks start game again
   reset(e) {
-    const selectPhraseDiv = document.getElementById("phrase");
-    const ulOfDiv = selectPhraseDiv.firstElementChild;
-    ulOfDiv.innerHTML = "";
+    const phraseList = document.getElementById("phrase").firstElementChild;
+    phraseList.innerHTML = "";
 
     this.missed = 0;
 
