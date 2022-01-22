@@ -59,9 +59,8 @@ class Game {
     document.getElementById("overlay").style.display = "block";
 
     if (gameWon === false) {
-      document.getElementById(
-        "game-over-message"
-      ).textContent = `Better luck next time! The phrase was ${this.activePhrase.phrase.toUpperCase()}`;
+      document.getElementById("game-over-message").textContent =
+        "Better luck next time!";
       document.getElementById("overlay").classList.remove("win");
       document.getElementById("overlay").classList.add("lose");
       document.getElementById("overlay").classList.remove("start");
