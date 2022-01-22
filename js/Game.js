@@ -66,8 +66,9 @@ class Game {
       document.getElementById("overlay").classList.add("lose");
       document.getElementById("overlay").classList.remove("start");
     } else {
-      document.getElementById("game-over-message").textContent =
-        "Congratulations! You guessed it correctly!";
+      document.getElementById(
+        "game-over-message"
+      ).textContent = `Congratulations! You guessed ${this.activePhrase.phrase.toUpperCase()}!`;
       document.getElementById("overlay").classList.remove("lose");
       document.getElementById("overlay").classList.add("win");
       document.getElementById("overlay").classList.remove("start");
